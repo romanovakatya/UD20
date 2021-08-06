@@ -21,7 +21,7 @@ import java.awt.event.FocusEvent;
 import java.awt.Color;
 import javax.swing.border.LineBorder;
 
-public class MiniCalculadora extends JFrame {
+public class MiniCalculadoraGUI extends JFrame {
 
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
@@ -43,7 +43,7 @@ public class MiniCalculadora extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public MiniCalculadora() {
+	public MiniCalculadoraGUI() {
 		setTitle("MiniCalculadora");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);

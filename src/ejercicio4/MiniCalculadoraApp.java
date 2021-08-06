@@ -11,7 +11,7 @@ public class MiniCalculadoraApp {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					MiniCalculadora frame = new MiniCalculadora();
+					MiniCalculadoraGUI frame = new MiniCalculadoraGUI();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
